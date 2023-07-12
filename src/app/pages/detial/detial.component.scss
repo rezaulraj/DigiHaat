@@ -1,0 +1,59 @@
+.container {
+  margin: 4rem;
+}
+
+img {
+  width: 100%;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 2rem;
+}
+
+.categorys-items select {
+  width: 100%;
+  padding: 0.8rem 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.description h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.line {
+  border: 1px solid #333;
+  margin-bottom: 2rem;
+}
+
+.description .brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description .brand h4 {
+  font-size: 2rem;
+}
+
+.wishlist {
+  margin-bottom: 1rem;
+}
+
+.feature h3 {
+  font-size: 2rem;
+}
+
+.feature h4 {
+  font-size: 2rem;
+}
+
+.cash {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border: 1px solid red;
+}
